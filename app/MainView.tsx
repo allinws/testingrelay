@@ -8,8 +8,6 @@ import MainViewQueryNode, {
 import { getCurrentEnvironment } from "../src/relay/environment";
 import { RelayEnvironmentProvider, graphql, PreloadedQuery, usePreloadedQuery } from "react-relay";
 import useSerializablePreloadedQuery from "../src/relay/useSerializablePreloadedQuery";
-
-
 import Link from "next/link";
 
 const MainViewClientComponent = (props: {

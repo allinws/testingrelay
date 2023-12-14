@@ -6,7 +6,7 @@ const nextConfig = {
       relay: {
         src: "./",
         language: "typescript",
-        artifactDirectory: "__generated__",
+        artifactDirectory: "app/__generated__",
       },
     },
     //experimental: { appDir: true },
